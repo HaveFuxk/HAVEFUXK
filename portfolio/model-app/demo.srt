@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:12,000
+A community app for model hobbyists to share photography, organize collections, and
+connect with other collectors.
+
+2
+00:00:12,000 --> 00:00:24,000
+Available on the web and iOS App Store, with a direct Android APK download. Android
+is not yet listed on Google Play.
+
+3
+00:00:24,000 --> 00:00:36,000
+The feed brings model photography into a shared community. This walkthrough uses
+captured web screens, not a continuous recording.
+
+4
+00:00:36,000 --> 00:00:48,000
+The composer provides a place to prepare a post. The text shown is an unsubmitted
+draft; no post is published in this walkthrough.
+
+5
+00:00:48,000 --> 00:01:00,000
+A post detail view keeps the photograph and its surrounding conversation together.
+The image shown here comes from the live web interface.
+
+6
+00:01:00,000 --> 00:01:12,000
+Comments let collectors respond to a shared post. The reply shown in the input is an
+unsubmitted draft, not a new published comment.
+
+7
+00:01:12,000 --> 00:01:24,000
+The app uses optimistic updates for likes across feed and detail views. The next two
+screens explain this pattern in a separate sample.
+
+8
+00:01:24,000 --> 00:01:36,000
+Synthetic demo: the sample updates the like state before a simulated request
+completes. A successful response keeps that updated state.
+
+9
+00:01:36,000 --> 00:01:48,000
+Synthetic demo: a rejected unlike request restores the count from 7 to 8 in both
+views. This failure is simulated, not triggered in the live app.
+
+10
+00:01:48,000 --> 00:02:00,000
+I define requirements and user flows, guide AI-assisted implementation, validate
+features, track defects, and maintain release documentation.
+
+11
+00:02:00,000 --> 00:02:12,000
+Read the case study and run the code sample to explore the consistency behavior and
+its limits. This walkthrough uses web captures; native-device testing is outside its
+scope.
