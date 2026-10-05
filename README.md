@@ -8,9 +8,9 @@ My development approach is **AI-assisted**: I define requirements and product de
 
 **Jul 2026–Present**
 
-A mobile and web community for model hobbyists to share their photography, organize collections and connect with other collectors.
+A community app for iOS, Android and web where model hobbyists share their photography, organize collections and connect with other collectors.
 
-**Try it:** [Web app](https://poseshelf.com) · [iOS App Store](https://apps.apple.com/app/id6782850253)
+**Try it:** [Web app](https://poseshelf.com) · [iOS App Store](https://apps.apple.com/app/id6782850253) · [Android APK](https://poseshelf.com/android)
 
 ### Product scope
 
@@ -33,7 +33,7 @@ I turn product ideas into concrete user flows and acceptance criteria, track def
 
 The implementation includes paginated real-time chat, optimistic updates for likes across feed and detail views, and access rules for conversations. These are useful examples of the problems I am learning to reason about: keeping screens consistent, handling asynchronous events and checking access at the data layer.
 
-MODEL-APP is available on the web and iOS App Store. Its source repository is private; the live product is the public demonstration of the project.
+Available on iOS via the App Store, on Android via direct APK download, and on the web. The Android version is not yet listed on Google Play. Its source repository is private; the live product is the public demonstration of the project.
 
 ## Supporting project: MCP-AGENTS
 
